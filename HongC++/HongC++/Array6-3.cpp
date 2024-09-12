@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main()
+int main6_3()
 {	
 	int scores[] = { 84,92,76,81,56 };
 	
