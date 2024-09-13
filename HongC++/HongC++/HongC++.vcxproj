@@ -132,6 +132,8 @@
     <ClCompile Include="Array6-2.cpp" />
     <ClCompile Include="Array6-3.cpp" />
     <ClCompile Include="Array6-4.cpp" />
+    <ClCompile Include="Array6-5.cpp" />
+    <ClCompile Include="Array6-6.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

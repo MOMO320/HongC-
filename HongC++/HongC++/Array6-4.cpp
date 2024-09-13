@@ -14,7 +14,7 @@ void printArray(const int array[], int length)
 }
 
 
-int main()
+int main6_4()
 {
 	/*		선택 정렬			value	index
 
