@@ -24,7 +24,7 @@
     <ProjectGuid>{f0eaf5a3-4457-407c-b03e-aa3e4acea74a}</ProjectGuid>
     <RootNamespace>HongC</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Array1</ProjectName>
+    <ProjectName>Array6</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -134,6 +134,7 @@
     <ClCompile Include="Array6-4.cpp" />
     <ClCompile Include="Array6-5.cpp" />
     <ClCompile Include="Array6-6.cpp" />
+    <ClCompile Include="Array6-7.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
