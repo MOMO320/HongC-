@@ -8,11 +8,17 @@ void doSomething(int student_socres[20])
 {
 	// 그렇기 때문에 매개변수의 첫 주소에 인자로 받은 배열의 주소를 받아 옵니다.
 	// 한마디로 매개변수의 배열의 첫 주소를 받아와 데이터를 읽습니다.
-	cout << (int)&student_socres << endl;
+	cout << "variable address in doSomething() : " << (int)&student_socres << endl;
+	cout << "---------- 주소 확인----------------" << endl;
+	cout << "in doSomething() , : "<< (int)&(student_socres) << endl;
+	cout << "in doSomething() , [0] : " << (int)&(student_socres[0]) << endl;
+	cout << "in doSomething() , [1] : " << (int)&(student_socres[1]) << endl;
+	cout << "in doSomething() , [2] : " << (int)&(student_socres[2]) << endl;
+	cout << "in doSomething() , [3] : " << (int)&(student_socres[3]) << endl;
 
-	cout << "---------- 주소 확인1----------------" << endl;
+	cout << "---------- 값 확인 ----------------" << endl;
 
-	cout << student_socres[0] << endl;
+	cout <<  student_socres[0] << endl;
 	cout << student_socres[1] << endl;
 	cout << student_socres[2] << endl;
 	cout << student_socres[3] << endl;
@@ -23,11 +29,6 @@ void doSomething(int student_socres[20])
 	student_socres[2] = 300;
 	student_socres[3] = 400;
 
-	cout << "---------- 주소 확인2----------------" << endl;
-	cout << (int)&student_socres << endl;
-	cout << (int)&(student_socres[0]) << endl;
-	cout << (int)&(student_socres[1]) << endl;
-	cout << (int)&(student_socres[2]) << endl;
 
 	int* test;
 	cout << "pointer size : " << sizeof(test) << endl;
@@ -46,12 +47,12 @@ int main6_2()
 
 	cout << (int)students_scores << endl;
 
-	cout << (int)&students_scores << endl;
-	cout << (int)&(students_scores[0]) << endl;
-	cout << (int)&(students_scores[1]) << endl;
-	cout << (int)&(students_scores[2]) << endl;
-	cout << (int)&(students_scores[3]) << endl;
-	cout << (int)&(students_scores[4]) << endl;
+	cout << "variable address in main() : " << (int)&students_scores << endl;
+	cout << "in main() , [0] : " <<(int)&(students_scores[0]) << endl;
+	cout << "in main() , [1] : " <<(int)&(students_scores[1]) << endl;
+	cout << "in main() , [2] : " <<(int)&(students_scores[2]) << endl;
+	cout << "in main() , [3] : " <<(int)&(students_scores[3]) << endl;
+	cout << "in main() , [4] : " <<(int)&(students_scores[4]) << endl;
 
 	cout << "size of main : " << sizeof(students_scores) << endl;
 

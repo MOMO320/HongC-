@@ -12,7 +12,7 @@ struct something
 	int a, b, c, d;
 };
 
-int main()
+int main6_7()
 {
 	int x = 5;
 
