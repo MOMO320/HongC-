@@ -28,6 +28,8 @@ int main6_9()
 	cout << uintptr_t(ptr + 3 )<< endl;
 
 	int array[] = { 9,7,5,3,1 };
+
+	cout << uintptr_t(array) << endl;
 	cout << array[0] << " " << (uintptr_t)&array[0] << endl;
 	cout << array[1] << " " << (uintptr_t) & array[1] << endl;
 	cout << array[2] << " " << (uintptr_t) & array[2] << endl;

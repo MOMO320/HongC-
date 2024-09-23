@@ -44,7 +44,7 @@ void testPtr(int* data)
 {
 	*data = 200;
 }
-int main6_8_1()
+int main6_8_1() // 6_8_1
 {
 
 	// 정적 array도 결국엔 포인터다.
@@ -60,10 +60,11 @@ int main6_8_1()
 	cout << array << endl;		// array의 첫번째 값의 주소를 가지고 있음
 	cout << &array[0] << endl;
 
-	cout << *array << endl;
+	cout <<"*array : " << *array << endl;
 
 	char name[] = "jackjack";
-	cout << *name << endl;
+	cout << "*name : " << *name << endl;
+	cout << "name : " <<name << endl;
 
 	int* ptr = nullptr;
 	cout << ptr << endl;

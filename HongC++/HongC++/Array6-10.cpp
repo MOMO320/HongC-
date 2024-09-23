@@ -28,15 +28,21 @@ int main()
 	const char* char_name = "Jack Jack";
 
 	cout << "----------------------------------------" << endl;
-	cout << char_arr << endl;	// cout에서는 문자열을 특별하게 처리한다.
-	cout << char_name << endl;	// 문자열 포인터는 c스타일의 문자를 가르킨다고 생각하고 문자열 array로 생각하고
-	cout << int_arr << endl;	// null character를 만날때까지 출력을 한다.
 	
+	cout << int_arr << endl;
+	cout << "char_arr : " << char_arr << endl;		// cout에서는 문자열을 특별하게 처리한다.
+	cout << "char_name : " << char_name << endl;	// 문자열 포인터는 c스타일의 문자를 가르킨다고 생각하고 문자열 array로 생각하고
+													// null character를 만날때까지 출력을 한다.
+	
+	cout << "*char_arr : " << *char_arr << endl;
+	cout << "*char_name : " << *char_name << endl;
+
 	char c = 'Q';
 
 	// char형의 주소를 출력하려고 하니깐 컴파일러가 문자열인줄 알고 
 	// null character를 만날때까지 문자열을 출력 하려고 한다. 
-	cout << &c << endl; 
+	cout <<"&c : " << &c << endl;
+	cout << "c : " << c << endl;
 
 
 	return 0;
