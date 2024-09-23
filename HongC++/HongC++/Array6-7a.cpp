@@ -26,7 +26,7 @@ void Check(double d)
 	cout << "address of reference variable in Check()" << &d << endl;
 }
 
-int main6_8()
+int main6_7a()
 {
 	double* ptr = nullptr;	// modern c++
 
