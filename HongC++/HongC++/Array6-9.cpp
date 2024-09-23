@@ -17,7 +17,7 @@ void arrayPrint(char data[])
 	}
 }
 
-int main()
+int main6_9()
 {
 	int value = 7;
 	int* ptr = &value;
