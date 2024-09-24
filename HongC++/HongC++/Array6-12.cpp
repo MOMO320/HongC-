@@ -2,9 +2,9 @@
 
 using namespace std;
 
-// 6-11.동적 할당 배열
+// 6-12.동적 할당 배열
 
-int main()
+int main6_12()
 {
 	int length;
 
@@ -25,7 +25,7 @@ int main()
 
 	int fixedArray[] = { 1,2,3,4,5 };
 
-	int* array = new int[3] {1, 2, 3};
+	//int* array = new int[3] {1, 2, 3};
 
 	// resizing
 
