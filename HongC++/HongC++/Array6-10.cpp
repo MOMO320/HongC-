@@ -6,7 +6,7 @@ const char* getName()
 	return "Jackjack";
 }
 
-int main()
+int main6_10()
 {
 	//char name[] = "Jack Jack";
 
