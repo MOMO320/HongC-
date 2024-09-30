@@ -10,7 +10,7 @@ void doSomething(const int& x)
 	cout << "doSomething address : " << &x << "/ value : " << x << endl;
 }
 
-int main()
+int main6_15()
 {
 	int x = 5;
 	const int &ref_x = x;	// 값 변경 불가능
