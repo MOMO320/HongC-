@@ -5,15 +5,13 @@ using namespace std;
 // 6-13.포인터와 const
 /*
 	int value = 5;
-	const int *ptr1 = &value;
-	int *const ptr2 = &value;
-	const int *const ptr3 = &value;
-	
-	
+	const int *ptr1 = &value;			// 포인터 주소 안의 값 변경 불가능
+	int *const ptr2 = &value;			// 포인터 주소 변경 불가능
+	const int *const ptr3 = &value;		// 포인터 주소 , 안의 값 둘다 변경 불가능
 	*/
 
 
-int main()
+int main6_13()
 {
 
 /// case 1
@@ -48,14 +46,14 @@ int main()
 //	ptr4 = value6;				// error! , 주소 자체를 변경하는것은 불가 하다.
 	
 /// case 5
-	int value6 = 60;
+	int value7 = 60;
 
 	// 여기서 'const'는 'pointer'의 주소와 주소안에 있는 값 둘다 상수로 하여 변경이 불가함
-	const int* const ptr6 = &value6;	
+	const int* const ptr6 = &value7;	
 
 	//*ptr6 = 10;		// error! 주소안에 있는 값은 상수 이므로 변경이 불가함
 
-	int value7 = 70;
+	int value8 = 70;
 	//ptr6 = &value7;   // error! pointer의 주소가 상수 이므로 변경이 불가함
 
 	return 0;

@@ -133,6 +133,8 @@
     <ClCompile Include="Array6-11.cpp" />
     <ClCompile Include="Array6-12.cpp" />
     <ClCompile Include="Array6-13.cpp" />
+    <ClCompile Include="Array6-14.cpp" />
+    <ClCompile Include="Array6-15.cpp" />
     <ClCompile Include="Array6-2.cpp" />
     <ClCompile Include="Array6-3.cpp" />
     <ClCompile Include="Array6-4.cpp" />
