@@ -75,5 +75,11 @@
     <ClCompile Include="Array6-19.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Array6-20.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Array6-21.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

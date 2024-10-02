@@ -94,7 +94,7 @@ int main6_19_3()
 }
 
 // 1차원으로 포인터 배열로 2차원처럼 보이게 하는 방법
-int main()
+int main6_19_4()
 {
 	const int row = 3;
 	const int col = 5;
