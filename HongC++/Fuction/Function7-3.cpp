@@ -101,10 +101,10 @@ void printVecElement(const vector<int>& arr)
 
 }
 
-int main()
+int main7_3_4()
 {
 	int arr[]{ 1,2,3,4 };
-	vector<int> arr{ 1,2,3,4 };
+	vector<int> arrV{ 1,2,3,4 };
 
 	printElement(arr);
 

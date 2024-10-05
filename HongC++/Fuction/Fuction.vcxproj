@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,6 +131,9 @@
     <ClCompile Include="Function7-1.cpp" />
     <ClCompile Include="Function7-2.cpp" />
     <ClCompile Include="Function7-3.cpp" />
+    <ClCompile Include="Function7-4.cpp" />
+    <ClCompile Include="function7-5.cpp" />
+    <ClCompile Include="Tuple_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
