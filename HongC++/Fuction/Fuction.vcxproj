@@ -137,6 +137,7 @@
     <ClCompile Include="Function7-6.cpp" />
     <ClCompile Include="Function7-8.cpp" />
     <ClCompile Include="Function7-9.cpp" />
+    <ClCompile Include="Function7-10.cpp" />
     <ClCompile Include="Tuple_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
