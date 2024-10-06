@@ -128,11 +128,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Function7-7.cpp" />
     <ClCompile Include="Function7-1.cpp" />
     <ClCompile Include="Function7-2.cpp" />
     <ClCompile Include="Function7-3.cpp" />
     <ClCompile Include="Function7-4.cpp" />
     <ClCompile Include="function7-5.cpp" />
+    <ClCompile Include="Function7-6.cpp" />
+    <ClCompile Include="Function7-8.cpp" />
     <ClCompile Include="Tuple_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -20,7 +20,7 @@ tuple<int, string> getAgeName()
 	return make_tuple(age, name);
 }
 
-int main()
+int mainTupleTest()
 {
 	tuple<int, string> personInfo;
 	personInfo = getAgeName();
