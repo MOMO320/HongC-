@@ -28,7 +28,7 @@ void print(int x , int y , int z  )
 void print(std::string str) {}
 void print(char ch = ' ') {}
 
-int main()
+int main7_8()
 {
 	print(10);	// 10 , 20 , 30
 	//print();	// 10, 20, 30
