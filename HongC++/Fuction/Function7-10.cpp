@@ -111,7 +111,7 @@ int main_heap()
 	// delete[] ptr2;
 }
 
-int main()
+int main7_10()
 {
 	initArray();
 
