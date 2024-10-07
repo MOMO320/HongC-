@@ -65,7 +65,7 @@ void printStack(const vector<int>& stack)
 	cout << endl;
 }
 
-int main()
+int main7_11_2()
 {
 	std::vector<int> stack;
 
