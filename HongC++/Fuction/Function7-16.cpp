@@ -4,6 +4,7 @@ using namespace std;
 
 // 생략부호 Ellipsis
 
+// 위험한 방법이다.
 // argument가 여러개 들어가도 된다.
 double findAverage(int count, ...)
 {
