@@ -76,7 +76,7 @@ void print(const Friend &fr)
 		<< fr.weight << endl;
 }
 
-int main()
+int main8_1()
 {
 	string	name;
 	string	address;

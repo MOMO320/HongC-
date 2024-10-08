@@ -129,6 +129,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="OOP8-1.cpp" />
+    <ClCompile Include="OOP8-2.cpp" />
+    <ClCompile Include="OOP8-3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="file.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
