@@ -37,7 +37,7 @@ public:
 	}
 };
 
-int main()
+int main8_5()
 {
 	Student st1(0, "Jack Jack");
 	st1.print();

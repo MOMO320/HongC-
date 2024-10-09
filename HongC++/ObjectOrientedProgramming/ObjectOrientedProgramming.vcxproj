@@ -133,6 +133,7 @@
     <ClCompile Include="OOP8-2.cpp" />
     <ClCompile Include="OOP8-3.cpp" />
     <ClCompile Include="OOP8-5.cpp" />
+    <ClCompile Include="OOP8-6.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="file.h" />
