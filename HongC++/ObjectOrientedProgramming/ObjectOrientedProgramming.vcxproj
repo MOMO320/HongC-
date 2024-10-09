@@ -128,10 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Function8-4.cpp" />
+    <ClCompile Include="OOP8-4.cpp" />
     <ClCompile Include="OOP8-1.cpp" />
     <ClCompile Include="OOP8-2.cpp" />
     <ClCompile Include="OOP8-3.cpp" />
+    <ClCompile Include="OOP8-5.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="file.h" />

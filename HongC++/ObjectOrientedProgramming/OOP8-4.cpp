@@ -62,7 +62,5 @@ int main8_4()
 	Something some;
 	some.print();
 
-
-
 	return 0;
 }

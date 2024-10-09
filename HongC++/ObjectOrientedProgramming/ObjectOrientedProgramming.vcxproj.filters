@@ -24,7 +24,10 @@
     <ClCompile Include="OOP8-3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Function8-4.cpp">
+    <ClCompile Include="OOP8-4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OOP8-5.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
