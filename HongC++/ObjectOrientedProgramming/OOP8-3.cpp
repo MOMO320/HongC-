@@ -77,7 +77,7 @@ public:
 	}
 };
 
-int main()
+int main8_3()
 {
 
 	// Second -> First 순서로 생성자 호출
