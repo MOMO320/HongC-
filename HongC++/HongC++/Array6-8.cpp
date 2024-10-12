@@ -95,7 +95,8 @@ int main6_8_2()
 
 	cout << sizeof(ms.array) << endl;
 
-	doSomething(ms);
+	do
+		(ms);
 	doSomethingPtr(&ms);
 	return 0;
 }

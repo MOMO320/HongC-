@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{90dc433c-3379-4519-a7e0-a99e9f6fdf59}</ProjectGuid>
-    <RootNamespace>ObjectOrientedProgramming</RootNamespace>
+    <ProjectGuid>{007d432f-3b04-417b-867c-20aaa630b2dd}</ProjectGuid>
+    <RootNamespace>Test</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ObjectOrientedProgram(OOP)1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,20 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Calc.cpp" />
-    <ClCompile Include="OOP8-4.cpp" />
-    <ClCompile Include="OOP8-1.cpp" />
-    <ClCompile Include="OOP8-2.cpp" />
-    <ClCompile Include="OOP8-3.cpp" />
-    <ClCompile Include="OOP8-5.cpp" />
-    <ClCompile Include="OOP8-6.cpp" />
-    <ClCompile Include="OOP8-7.cpp" />
-    <ClCompile Include="OOP8-8.cpp" />
-    <ClCompile Include="OOP8-9.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Calc.h" />
-    <ClInclude Include="file.h" />
+    <ClCompile Include="FileName.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
