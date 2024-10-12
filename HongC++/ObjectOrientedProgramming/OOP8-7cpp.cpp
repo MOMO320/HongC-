@@ -37,48 +37,48 @@ int main8_7_1()
 	return 0;
 }
 
-class Calc
-{
-private:
-	int m_value;
-
-public:
-	Calc(int init_value) : m_value(init_value)
-	{
-
-	}
-
-	// 아래와 같이 사용 할 수 있다.(아래와 같이 하면 연속적으로 함수를 호출 할 수 있다.)
-	Calc& add(int value) { m_value += value; return *this; }
-	Calc& sub(int value) { m_value -= value; return *this; }
-	Calc& mult(int value) { m_value *= value; return *this; }
-	//void add(int value) { m_value += value; }
-	//void sub(int value) { m_value -= value; }
-	//void mult(int value) { m_value *= value; }
-
-	void print()
-	{
-		cout << m_value << endl;
-	}
-};
-
-// 연쇄 호출 멤버 함수(chaining member function)
-int main8_7()
-{
-	Calc cal(10);
-	//cal.add(10);
-	//cal.sub(1);
-	//cal.mult(2);
-	//cal.print();
-
-	// 연쇄 호출 멤버 함수
-	cal.add(10).sub(1).mult(2).print();
-	
-	// 위 코드가 풀어서 아래와 같다.(c++ 입장에서 좀 불안하고 번거롭다.)
-	Calc& temp1 = cal.add(10);
-	Calc& temp2 = temp1.sub(1);
-	Calc& temp3 = temp2.mult(2);
-	temp3.print();
-
-	return 0;
-}
+//class Calc
+//{
+//private:
+//	int m_value;
+//
+//public:
+//	Calc(int init_value) : m_value(init_value)
+//	{
+//
+//	}
+//
+//	// 아래와 같이 사용 할 수 있다.(아래와 같이 하면 연속적으로 함수를 호출 할 수 있다.)
+//	Calc& add(int value) { m_value += value; return *this; }
+//	Calc& sub(int value) { m_value -= value; return *this; }
+//	Calc& mult(int value) { m_value *= value; return *this; }
+//	//void add(int value) { m_value += value; }
+//	//void sub(int value) { m_value -= value; }
+//	//void mult(int value) { m_value *= value; }
+//
+//	void print()
+//	{
+//		cout << m_value << endl;
+//	}
+//};
+//
+//// 연쇄 호출 멤버 함수(chaining member function)
+//int main8_7()
+//{
+//	Calc cal(10);
+//	//cal.add(10);
+//	//cal.sub(1);
+//	//cal.mult(2);
+//	//cal.print();
+//
+//	// 연쇄 호출 멤버 함수
+//	cal.add(10).sub(1).mult(2).print();
+//	
+//	// 위 코드가 풀어서 아래와 같다.(c++ 입장에서 좀 불안하고 번거롭다.)
+//	Calc& temp1 = cal.add(10);
+//	Calc& temp2 = temp1.sub(1);
+//	Calc& temp3 = temp2.mult(2);
+//	temp3.print();
+//
+//	return 0;
+//}

@@ -2,7 +2,7 @@
 
 // 클래스 코드와 헤더 파일
 
-int main()
+int main8_8()
 {
 	Calc cal(10);
 	cal.add(10).sub(1).mult(2).print();
