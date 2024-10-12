@@ -135,8 +135,10 @@
     <ClCompile Include="OOP8-5.cpp" />
     <ClCompile Include="OOP8-6.cpp" />
     <ClCompile Include="OOP8-7cpp.cpp" />
+    <ClCompile Include="OOP8-8.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Calc.h" />
     <ClInclude Include="file.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -36,9 +36,15 @@
     <ClCompile Include="OOP8-7cpp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="OOP8-8.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="file.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Calc.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
