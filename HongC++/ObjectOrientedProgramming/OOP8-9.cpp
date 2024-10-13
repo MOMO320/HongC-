@@ -10,7 +10,7 @@ using namespace std;
 class SomethingX
 {
 public:
-	string m_string ="hhh";
+	string m_string ="default";
 	int m_value = 0;
 
 public:
@@ -54,13 +54,13 @@ void print(SomethingX st)
 	cout << st.m_string << endl;
 }
 
-int main()
+int main8_9_1()
 {
 	MyClass _class;
 	_class.m_name;
 
 	// 클래스에 const를 붙이면 const를 붙인 멤버 함수만 사용이 가능하다.
-	// 그리고 멤버 변수를 변겨아하지 않는 함수여야만 가능하다.
+	// 그리고 멤버 변수를 변경하지 않는 함수여야만 가능하다.
 	//Something something(10,"hello");
 	SomethingX something;
 	cout << "main in : " << &something << endl;
@@ -70,6 +70,36 @@ int main()
 	//something.setValue(3);
 
 	//cout << something.getValue() << endl;
+
+	return 0;
+}
+
+class SomethingY
+{
+public:
+	string m_value = "defualt";
+
+	// const키워드로 오버로딩이 가능하다.
+	// const 멤버 함수는 return 값도 const로 내보낸다.
+	const string& getValue() const {
+		cout << "const version" << endl;
+		return m_value; }
+	
+	string& getValue() { 
+		cout << "non-const version" << endl;
+		return m_value; }
+};
+
+
+int main()
+{
+	SomethingY somethingY;
+	somethingY.getValue();	// non-const reference를 return 한다.
+	somethingY.getValue() = 10;	// value 변경 가능
+
+	const SomethingY somethingY2;
+	somethingY2.getValue();	// const reference를 return 한다.
+	//somethingY2.getValue() = 100;	// const이기 때문에 값 변경 안된다.
 
 	return 0;
 }
