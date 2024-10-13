@@ -91,7 +91,7 @@ public:
 };
 
 
-int main()
+int main8_9_2()
 {
 	SomethingY somethingY;
 	somethingY.getValue();	// non-const reference¸¦ return ÇÑ´Ù.
