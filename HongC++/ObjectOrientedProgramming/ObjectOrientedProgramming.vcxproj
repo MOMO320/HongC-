@@ -130,6 +130,9 @@
   <ItemGroup>
     <ClCompile Include="Calc.cpp" />
     <ClCompile Include="OOP8-10.cpp" />
+    <ClCompile Include="OOP8-11.cpp" />
+    <ClCompile Include="OOP8-12.cpp" />
+    <ClCompile Include="OOP8-13.cpp" />
     <ClCompile Include="OOP8-4.cpp" />
     <ClCompile Include="OOP8-1.cpp" />
     <ClCompile Include="OOP8-2.cpp" />

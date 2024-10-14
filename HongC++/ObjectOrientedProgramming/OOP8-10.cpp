@@ -35,7 +35,7 @@ int generateID()
 // header에 정의 할 경우 중복 정의 문제 발생
 int Something10::s_value = 1;	
 
-int main()
+int main8_10()
 {
 	cout << generateID() << endl;
 	cout << generateID() << endl;

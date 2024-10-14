@@ -16,7 +16,7 @@ public:
 	}
 };
 
-int main()
+int main_1()
 {
 	MyClass myClass;
 
