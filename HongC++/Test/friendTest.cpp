@@ -41,7 +41,7 @@ void testUp()
 	cout << "testUp" << endl;
 }
 
-int main()
+int main2()
 {
 	testUp();
 	testDown();
