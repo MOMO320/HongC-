@@ -9,9 +9,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fuction", "Fuction\Fuction.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgorithmRecursive", "algorithm\algorithm.vcxproj", "{5174E40D-90A9-4687-B8BB-0F5CFCA5A682}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectOrientedProgram(OOP)", "ObjectOrientedProgramming\ObjectOrientedProgramming.vcxproj", "{90DC433C-3379-4519-A7E0-A99E9F6FDF59}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectOrientedProgram(OOP)1", "ObjectOrientedProgramming\ObjectOrientedProgramming.vcxproj", "{90DC433C-3379-4519-A7E0-A99E9F6FDF59}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{007D432F-3B04-417B-867C-20AAA630B2DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Operator", "Operator\Operator.vcxproj", "{05012E5B-494F-4894-A118-286CB433F974}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{007D432F-3B04-417B-867C-20AAA630B2DD}.Release|x64.Build.0 = Release|x64
 		{007D432F-3B04-417B-867C-20AAA630B2DD}.Release|x86.ActiveCfg = Release|Win32
 		{007D432F-3B04-417B-867C-20AAA630B2DD}.Release|x86.Build.0 = Release|Win32
+		{05012E5B-494F-4894-A118-286CB433F974}.Debug|x64.ActiveCfg = Debug|x64
+		{05012E5B-494F-4894-A118-286CB433F974}.Debug|x64.Build.0 = Debug|x64
+		{05012E5B-494F-4894-A118-286CB433F974}.Debug|x86.ActiveCfg = Debug|Win32
+		{05012E5B-494F-4894-A118-286CB433F974}.Debug|x86.Build.0 = Debug|Win32
+		{05012E5B-494F-4894-A118-286CB433F974}.Release|x64.ActiveCfg = Release|x64
+		{05012E5B-494F-4894-A118-286CB433F974}.Release|x64.Build.0 = Release|x64
+		{05012E5B-494F-4894-A118-286CB433F974}.Release|x86.ActiveCfg = Release|Win32
+		{05012E5B-494F-4894-A118-286CB433F974}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
