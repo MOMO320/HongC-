@@ -130,6 +130,9 @@
     <ClCompile Include="Operator9-1.cpp" />
     <ClCompile Include="Operator9-2.cpp" />
     <ClCompile Include="Operator9-3.cpp" />
+    <ClCompile Include="Operator9-4.cpp" />
+    <ClCompile Include="Operator9-5.cpp" />
+    <ClCompile Include="Operator9-6.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
