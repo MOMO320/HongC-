@@ -41,8 +41,8 @@ public:
 	// const operator
 	const int& operator [] (const int index) const
 	{
-		assert(value >= 0);
-		assert(value < 10);
+		assert(index >= 0);
+		assert(index < 10);
 
 		return this->m_list[index];
 	}
@@ -66,7 +66,7 @@ int main9_6_1()
 }
 
 
-int main()
+int main9_6_2()
 {
 	IntList* list = new IntList;
 
