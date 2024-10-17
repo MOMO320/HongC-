@@ -12,6 +12,8 @@ private:
 	int m_denominator;
 
 public:
+	// 자동으로 변환되는게 걱정되는 경우에 이렇게 delete로 삭제된 함수라고
+	// 지정해 주면 문제가 발생하지 않는다.
 	Fraction(char) = delete;
 
 	explicit Fraction(int num = 0, int den = 1) : m_numerator(num), m_denominator(den)
@@ -40,7 +42,7 @@ void doSomething(Fraction frac)
 	cout << frac << endl;
 }
 
-int main()
+int main9_10()
 {
 	Fraction frac(7);
 	//Fraction frac2('c');	// 삭제된 함수라고 떠서 error가 발생 됨

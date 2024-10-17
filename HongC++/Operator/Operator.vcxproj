@@ -128,6 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Operator9-1.cpp" />
+    <ClCompile Include="Operator9-10.cpp" />
+    <ClCompile Include="Operator9-11.cpp" />
+    <ClCompile Include="Operator9-12.cpp" />
     <ClCompile Include="Operator9-2.cpp" />
     <ClCompile Include="Operator9-3.cpp" />
     <ClCompile Include="Operator9-4.cpp" />
