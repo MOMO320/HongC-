@@ -25,7 +25,7 @@ public:
 	// ! -> bool 데이터형(조건은 각자 원하는 방향으로 작성하는것 이다.)
 	// 아래 함수의 조건 : cents가 0일때 낫을 붙이면 true를 리턴하게 하고
 	// 그 외의 경우에는 false를 리턴한다.
-	bool operator !() const	 // not operator
+	bool operator !()	 // not operator
 	{
 		return (this->m_cents == 0) ? true : false;
 		// !Cents(...)
