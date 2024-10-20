@@ -25,6 +25,11 @@ public:
 		m_intel = intel_in;
 	}
 
+	int& getIntel()
+	{
+		return m_intel;
+	}
+
 	friend std::ostream& operator << (std::ostream& out, const Student& student)
 	{
 		out << student.m_name << " " << student.m_intel;

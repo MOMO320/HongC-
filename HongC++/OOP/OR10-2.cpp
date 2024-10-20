@@ -4,7 +4,7 @@
 // 10.2 按眉甸狼 备己 包拌
 
 
-int main()
+int main10_2()
 {
 	Monster mon1("Sanson", Position2D(0,0));
 

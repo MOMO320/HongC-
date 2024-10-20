@@ -130,7 +130,7 @@
   <ItemGroup>
     <ClCompile Include="Lecture.cpp" />
     <ClCompile Include="Monster.cpp" />
-    <ClCompile Include="OB10-3.cpp" />
+    <ClCompile Include="OR10-3.cpp" />
     <ClCompile Include="OR10-2.cpp" />
     <ClCompile Include="Position2D.cpp" />
   </ItemGroup>

@@ -24,7 +24,7 @@
     <ClCompile Include="Position2D.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="OB10-3.cpp">
+    <ClCompile Include="OR10-3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Lecture.cpp">
