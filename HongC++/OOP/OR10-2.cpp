@@ -9,6 +9,8 @@ int main()
 	Monster mon1("Sanson", Position2D(0,0));
 
 	cout << mon1 << endl;
+	Monster mon2("Parsival", Position2D(0,0));
+	//mon2.
 	//while (1)	// game loop;
 	{
 		//event

@@ -29,15 +29,5 @@ public:
 		m_x = x_target;
 		m_y = y_target;
 	}
-
-	int& getPositionX()
-	{
-		return m_x;
-	}
-
-	int& getPositionY()
-	{
-		return m_y;
-	}
 };
 

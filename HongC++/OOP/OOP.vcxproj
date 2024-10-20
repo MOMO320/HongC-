@@ -128,13 +128,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Lecture.cpp" />
     <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="OB10-3.cpp" />
     <ClCompile Include="OR10-2.cpp" />
     <ClCompile Include="Position2D.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Lecture.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Position2D.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="Teacher.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
