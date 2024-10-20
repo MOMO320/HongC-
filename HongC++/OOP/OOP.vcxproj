@@ -132,7 +132,11 @@
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="OR10-3.cpp" />
     <ClCompile Include="OR10-2.cpp" />
+    <ClCompile Include="OR10-4.cpp" />
+    <ClCompile Include="OR10-5.cpp" />
+    <ClCompile Include="OR10-66.cpp" />
     <ClCompile Include="Position2D.cpp" />
+    <ClCompile Include="Worker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lecture.h" />
@@ -140,6 +144,8 @@
     <ClInclude Include="Position2D.h" />
     <ClInclude Include="Student.h" />
     <ClInclude Include="Teacher.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Worker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

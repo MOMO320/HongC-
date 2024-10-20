@@ -22,7 +22,7 @@ public:
 	~Lecture()
 	{
 		//do Not delete teacher
-		delete teacher;
+		//delete teacher;
 	}
 
 	void assignTeacher(Teacher* const teacher_input)

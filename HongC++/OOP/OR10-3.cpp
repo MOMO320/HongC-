@@ -3,11 +3,11 @@
 #include <string>
 #include "Lecture.h"
 
-// 10.3 집합 관계(Association)
+// 10.3 집합 관계(Aggregation)
 // Teacher.h , Student.h, Lecture.h
 
 // 포인터로 데이터를 공유하면 다른곳에서 값을 변경해도 공유가 된다.
-int main()
+int main10_3()
 {
 	using namespace std;
 
