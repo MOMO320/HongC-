@@ -60,7 +60,9 @@ public:
 		// 만약 m_data == nullptr 이면 새로 메모리를 잡음
 		if (m_data == nullptr)
 		{
-			m_data = new int[m_length];
+			m_length = size;
+			m_capacity = m_length * 2;
+			m_data = new int[m_capacity];
 			return;
 		}
 
@@ -135,7 +137,7 @@ public:
 	}
 };
 
-int main()
+int main10_6_2()
 {
 	IntArray my_arr{ 1,2,3,4,5 };
 	
