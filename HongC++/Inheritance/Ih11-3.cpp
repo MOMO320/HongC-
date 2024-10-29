@@ -67,7 +67,7 @@ public:
 	}
 };
 
-int main()
+int main11_3_2()
 {
 	C c1;	// A -> B -> C
 

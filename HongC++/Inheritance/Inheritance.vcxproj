@@ -130,6 +130,12 @@
     <ClCompile Include="Ih11-1.cpp" />
     <ClCompile Include="Ih11-2.cpp" />
     <ClCompile Include="Ih11-3.cpp" />
+    <ClCompile Include="Ih11-4.cpp" />
+    <ClCompile Include="Ih11-5.cpp" />
+    <ClCompile Include="Ih11-6.cpp" />
+    <ClCompile Include="Ih11-7.cpp" />
+    <ClCompile Include="Ih11-8.cpp" />
+    <ClCompile Include="Ih11-9.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h" />
