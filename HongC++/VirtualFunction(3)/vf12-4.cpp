@@ -30,7 +30,7 @@ public:
 	}
 };
 
-int main()
+int main12_4()
 {
 	//Derived derived(5);
 
