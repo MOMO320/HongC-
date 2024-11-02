@@ -27,7 +27,7 @@ public:
 	{
 		cout << "~Derived" << endl;
 		delete[] m_array;
-	}
+ 	}
 };
 
 int main12_4()

@@ -7,7 +7,7 @@ using namespace std;
 class PoweredDevice
 {
 public:
-	int m_i;
+	int m_i = 0;
 
 	PoweredDevice(int power =0)
 	{
@@ -50,7 +50,7 @@ public:
 };
 
 
-int main()
+int main12_8()
 {
 	// 생성자가 두번 불러와 진다.
 	Copier cop(1, 2, 3);
