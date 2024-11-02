@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "virtualFunction(11)", "virt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PolymorphismTest", "PolymorphismTest\PolymorphismTest.vcxproj", "{0C3E562D-EBAD-4540-9A4D-A471AEF35407}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateMeta", "TemplateMeta\TemplateMeta.vcxproj", "{AC54EF0C-CEAF-4475-96F6-4EA197732E8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{0C3E562D-EBAD-4540-9A4D-A471AEF35407}.Release|x64.Build.0 = Release|x64
 		{0C3E562D-EBAD-4540-9A4D-A471AEF35407}.Release|x86.ActiveCfg = Release|Win32
 		{0C3E562D-EBAD-4540-9A4D-A471AEF35407}.Release|x86.Build.0 = Release|Win32
+		{AC54EF0C-CEAF-4475-96F6-4EA197732E8D}.Debug|x64.ActiveCfg = Debug|x64
+		{AC54EF0C-CEAF-4475-96F6-4EA197732E8D}.Debug|x64.Build.0 = Debug|x64
+		{AC54EF0C-CEAF-4475-96F6-4EA197732E8D}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC54EF0C-CEAF-4475-96F6-4EA197732E8D}.Debug|x86.Build.0 = Debug|Win32
+		{AC54EF0C-CEAF-4475-96F6-4EA197732E8D}.Release|x64.ActiveCfg = Release|x64
+		{AC54EF0C-CEAF-4475-96F6-4EA197732E8D}.Release|x64.Build.0 = Release|x64
+		{AC54EF0C-CEAF-4475-96F6-4EA197732E8D}.Release|x86.ActiveCfg = Release|Win32
+		{AC54EF0C-CEAF-4475-96F6-4EA197732E8D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

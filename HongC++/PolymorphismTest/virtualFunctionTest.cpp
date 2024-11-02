@@ -74,7 +74,7 @@ public:
 	}
 };
 
-int main()
+int mainVirtaulFunctionTest()
 {
 	//도형 객체를 저장할 벡터
 	vector<Shape*> shapes;
@@ -87,5 +87,11 @@ int main()
 	// 각 도형의 면적과 둘레 출력
 	for (const auto& shape : shapes)
 		cout << "Area : " << shape->area() << ", Perimeter : " << shape->perimeter() << endl;
+
+	// 메모리 해제
+	for (const auto& shape : shapes)
+		delete shape;
+
+	return 0;
 }
 
