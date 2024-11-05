@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0c3e562d-ebad-4540-9a4d-a471aef35407}</ProjectGuid>
-    <RootNamespace>PolymorphismTest</RootNamespace>
+    <ProjectGuid>{fbc453df-cbba-4e0b-b42b-10bbd5867cdf}</ProjectGuid>
+    <RootNamespace>CastingTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,8 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="interfaceTest.cpp" />
-    <ClCompile Include="virtualFunctionTest.cpp" />
+    <ClCompile Include="dynamicCast.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

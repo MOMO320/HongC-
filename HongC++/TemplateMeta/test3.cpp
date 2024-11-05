@@ -37,7 +37,7 @@ void printType()
 	TypeTraits<T>::info();	// T의 타입에 따라 적절한 info() 호출
 }
 
-int main()
+int maintTemplateMetaTest3()
 {
 	printType<double>();
 	printType<int>();
