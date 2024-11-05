@@ -50,7 +50,7 @@ public:
 	}
 };
 
-int main()
+int mainVfTest()
 {
 	Archer* archer = new Archer("Heal", 10);
 	Character* charcter = archer;
