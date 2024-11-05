@@ -2,23 +2,24 @@
 #include <assert.h>
 #include <iostream>
 
-template<typename T>
+template<typename T, unsigned int T_SIZE>
 class MyArray
 {
 private:
-	T m_length;
+	//T m_length;
 	T* m_data;
 
 public:
 	MyArray()
 	{
-		m_length = 0;
+		//m_length = 0;
 		m_data = nullptr;
+		m_data = new T[T_SIZE];
 	}
 	MyArray(int length)
 	{
-		m_data = new T[length];
-		m_length = length;
+		m_data = new T[T_SIZE];
+		//m_length = length;
 	}
 	~MyArray()
 	{
@@ -29,21 +30,26 @@ public:
 	{
 		delete[] m_data;
 		m_data = nullptr;
-		m_length = 0;
+		//m_length = 0;
 	}
 
 	T& operator[](int index)
 	{
-		assert(index >= 0 && index < m_length);
+		assert(index >= 0 && index < T_SIZE);
 		return m_data[index];
 	}
 
 	int getLength()
 	{
-		return m_length;
+		return T_SIZE;
 	}
 
-	void print();
+	void print()
+	{
+		for (int i = 0; i < T_SIZE; ++i)
+			std::cout << m_data[i] << " ";
+		std::cout << std::endl;
+	}
 };
 
 // 템플릿은 헤더에서 정의해야 한다.

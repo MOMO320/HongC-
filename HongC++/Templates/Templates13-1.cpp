@@ -45,11 +45,11 @@ public:
 
 };
 
-template<typename T>
-T getMax(T x, T y)
-{
-	return (x > y) ? x : y;
-}
+//template<typename T>
+//T getMax(T x, T y)
+//{
+//	return (x > y) ? x : y;
+//}
 
 //int getMax(int x, int y)
 //{
@@ -72,13 +72,13 @@ int main13_1()
 	// function overloading 처럼해서 컴파일러가 바꿔서 해주고 있다.
 
 	// 
-	cout << getMax(1, 2) << endl;
-	cout << getMax(3.14, 1.58) << endl;
-	cout << getMax(1.0f, 3.4f) << endl;
-	cout << getMax('a', 'c') << endl;
-	cout << getMax("strd", "srr") << endl;
+	//cout << getMax(1, 2) << endl;
+	//cout << getMax(3.14, 1.58) << endl;
+	//cout << getMax(1.0f, 3.4f) << endl;
+	//cout << getMax('a', 'c') << endl;
+	//cout << getMax("strd", "srr") << endl;
 
-	cout << getMax(Cents(5), Cents(9)) << endl;	// 9 cents
+	//cout << getMax(Cents(5), Cents(9)) << endl;	// 9 cents
 
 	return 0;
 }

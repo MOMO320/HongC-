@@ -128,11 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MyArray.cpp" />
+    <ClCompile Include="Storage.cpp" />
+    <ClCompile Include="Storage8.cpp" />
     <ClCompile Include="Template13-2.cpp" />
+    <ClCompile Include="Template13-3.cpp" />
+    <ClCompile Include="Template13-4.cpp" />
+    <ClCompile Include="Template13-5.cpp" />
     <ClCompile Include="Templates13-1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyArray.h" />
+    <ClInclude Include="Storage.h" />
+    <ClInclude Include="Storage8.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
