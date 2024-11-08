@@ -47,7 +47,7 @@ int main13_5_1()
 	return 0;
 }
 
-int main()
+int main13_5_2()
 {
 	Storage8<int> intStorage;
 
