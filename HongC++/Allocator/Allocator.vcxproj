@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{89ff373f-9649-4d5a-9eb1-16de9be8b9ba}</ProjectGuid>
-    <RootNamespace>Templates</RootNamespace>
+    <ProjectGuid>{ee287fa6-ebf8-456c-8bde-ef9369cee313}</ProjectGuid>
+    <RootNamespace>Allocator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,23 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MyArray.cpp" />
-    <ClCompile Include="Storage.cpp" />
-    <ClCompile Include="Storage8.cpp" />
-    <ClCompile Include="Template13-2.cpp" />
-    <ClCompile Include="Template13-3.cpp" />
-    <ClCompile Include="Template13-4.cpp" />
-    <ClCompile Include="Template13-5.cpp" />
-    <ClCompile Include="Template13-6.cpp" />
-    <ClCompile Include="Template13-7.cpp" />
-    <ClCompile Include="Template13-8.cpp" />
-    <ClCompile Include="TemplateArray.cpp" />
-    <ClCompile Include="Templates13-1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="MyArray.h" />
-    <ClInclude Include="Storage.h" />
-    <ClInclude Include="Storage8.h" />
+    <ClCompile Include="allocateTest.cpp" />
+    <ClCompile Include="vectorAllocator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
