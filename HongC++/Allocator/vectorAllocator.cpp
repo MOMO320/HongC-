@@ -107,7 +107,7 @@ public:
 	}
 };
 
-int main()
+int mainAllocatorTest()
 {
 	vectorAllocator<int> vec;
 	vec.push_back(10);

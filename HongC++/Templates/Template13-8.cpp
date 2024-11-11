@@ -43,7 +43,7 @@ public:
 	}
 };
 
-int main()
+int main131_8()
 {
 	A<int> a_int(123);
 	B b_int(123);

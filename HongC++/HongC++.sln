@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Templates", "Templates\Temp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Allocator", "Allocator\Allocator.vcxproj", "{EE287FA6-EBF8-456C-8BDE-EF9369CEE313}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exception", "Exception\Exception.vcxproj", "{566096EB-925B-40DB-A4A7-3CE4E1E64C08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{EE287FA6-EBF8-456C-8BDE-EF9369CEE313}.Release|x64.Build.0 = Release|x64
 		{EE287FA6-EBF8-456C-8BDE-EF9369CEE313}.Release|x86.ActiveCfg = Release|Win32
 		{EE287FA6-EBF8-456C-8BDE-EF9369CEE313}.Release|x86.Build.0 = Release|Win32
+		{566096EB-925B-40DB-A4A7-3CE4E1E64C08}.Debug|x64.ActiveCfg = Debug|x64
+		{566096EB-925B-40DB-A4A7-3CE4E1E64C08}.Debug|x64.Build.0 = Debug|x64
+		{566096EB-925B-40DB-A4A7-3CE4E1E64C08}.Debug|x86.ActiveCfg = Debug|Win32
+		{566096EB-925B-40DB-A4A7-3CE4E1E64C08}.Debug|x86.Build.0 = Debug|Win32
+		{566096EB-925B-40DB-A4A7-3CE4E1E64C08}.Release|x64.ActiveCfg = Release|x64
+		{566096EB-925B-40DB-A4A7-3CE4E1E64C08}.Release|x64.Build.0 = Release|x64
+		{566096EB-925B-40DB-A4A7-3CE4E1E64C08}.Release|x86.ActiveCfg = Release|Win32
+		{566096EB-925B-40DB-A4A7-3CE4E1E64C08}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
