@@ -21,7 +21,7 @@ void MySwap(T& a, T& b)
 	
 }
 
-int main()
+int main15_4()
 {
 	// Test1
 	//{

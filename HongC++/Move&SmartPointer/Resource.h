@@ -53,6 +53,27 @@ public:
 		return *this;
 	}
 
+	Resource& operator=(Resource&& res)
+	{
+		std::cout << "Resource move assignment" << std::endl;
+
+		if (&res == this) return *this;
+
+		if (this->m_data != nullptr) delete[] this->m_data;
+
+		m_length = res.m_length;
+		m_data = res.m_data;
+		
+		for (int i = 0; i < m_length; ++i)
+		{
+			m_data[i] = res.m_data[i];
+		}
+
+		res.m_data = nullptr;
+
+		return *this;
+	}
+
 	void print()
 	{
 		for (unsigned i = 0; i < m_length; ++i)

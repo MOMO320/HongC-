@@ -131,6 +131,9 @@
     <ClCompile Include="msp15-2.cpp" />
     <ClCompile Include="msp15-3.cpp" />
     <ClCompile Include="msp15-4.cpp" />
+    <ClCompile Include="shared_ptr15-6.cpp" />
+    <ClCompile Include="unique_ptr15-5.cpp" />
+    <ClCompile Include="weap_ptr_15-7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AutoPtr.h" />
