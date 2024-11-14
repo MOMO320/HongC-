@@ -15,7 +15,7 @@ public:
 };
 
 
-int main()
+int main14_6()
 {
 	try
 	{

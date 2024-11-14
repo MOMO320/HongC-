@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{566096eb-925b-40db-a4a7-3ce4e1e64c08}</ProjectGuid>
-    <RootNamespace>Exception</RootNamespace>
+    <ProjectGuid>{1d7ff9aa-2045-47f8-99cb-dcafb792a914}</ProjectGuid>
+    <RootNamespace>MoveSmartPointer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Exception14-1-2.cpp" />
-    <ClCompile Include="Exception14-1.cpp" />
-    <ClCompile Include="Exception14-2.cpp" />
-    <ClCompile Include="Exception14-3.cpp" />
-    <ClCompile Include="exception14-4.cpp" />
-    <ClCompile Include="exception14-5.cpp" />
-    <ClCompile Include="exception14-6.cpp" />
-    <ClCompile Include="expectionTest.cpp" />
-    <ClCompile Include="test2.cpp" />
+    <ClCompile Include="msp15-1.cpp" />
+    <ClCompile Include="msp15-2.cpp" />
+    <ClCompile Include="msp15-3.cpp" />
+    <ClCompile Include="msp15-4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoPtr.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

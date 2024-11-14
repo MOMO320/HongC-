@@ -65,29 +65,29 @@ void doSomething14_3()
 		cout << "doSomething() :" ;
 		cout << &e << endl;
 		e.report();
-		throw;
+		//throw;
 	}
 
 }
 
 int main14_3()
 {
-	try
-	{
+	/*try
+	{*/
 		doSomething14_3();
-	}
-	catch(ArrayException& e)
-	{
-		cout << "main() ArrayException : " ;
-		cout << &e << endl;
-		e.report();
-	}
-	catch (Exception& e)
-	{
-		cout << "main() Exception : ";
-		cout << &e << endl;
-		e.report();
-	}
+	//}
+	//catch(ArrayException& e)
+	//{
+	//	cout << "main() ArrayException : " ;
+	//	cout << &e << endl;
+	//	e.report();
+	//}
+	//catch (Exception& e)
+	//{
+	//	cout << "main() Exception : ";
+	//	cout << &e << endl;
+	//	e.report();
+	//}
 
 
 	return 0;
