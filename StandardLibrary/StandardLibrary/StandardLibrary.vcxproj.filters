@@ -15,20 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="exceptionTest.cpp">
+    <ClCompile Include="StandardTemplateLibrary.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="LvalueRvalueTest.cpp">
+    <ClCompile Include="iterators.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="MoveAssignmentTest.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RvalueTest.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="vectorException.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

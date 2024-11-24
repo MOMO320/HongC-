@@ -15,19 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="exceptionTest.cpp">
+    <ClCompile Include="UniquePtr.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="LvalueRvalueTest.cpp">
+    <ClCompile Include="std_unique_ptr_test.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="MoveAssignmentTest.cpp">
+    <ClCompile Include="UniquePtrMove.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="RvalueTest.cpp">
+    <ClCompile Include="UniqueReleaseRest.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="vectorException.cpp">
+    <ClCompile Include="arrayUnique_ptr.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3d4bb871-44ed-4c10-9684-39ff90d9448c}</ProjectGuid>
-    <RootNamespace>TestProject</RootNamespace>
+    <ProjectGuid>{55c6073e-b118-41d6-92f3-dc68977ec937}</ProjectGuid>
+    <RootNamespace>UniquePtrMake</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="exceptionTest.cpp" />
-    <ClCompile Include="LvalueRvalueTest.cpp" />
-    <ClCompile Include="MoveAssignmentTest.cpp" />
-    <ClCompile Include="RvalueTest.cpp" />
-    <ClCompile Include="vectorException.cpp" />
+    <ClCompile Include="arrayUnique_ptr.cpp" />
+    <ClCompile Include="std_unique_ptr_test.cpp" />
+    <ClCompile Include="UniquePtr.cpp" />
+    <ClCompile Include="UniquePtrMove.cpp" />
+    <ClCompile Include="UniqueReleaseRest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
