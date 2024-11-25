@@ -96,7 +96,7 @@ int mainTest1()
 
 //멀티 쓰레드 사용시 출력이 깨지는 문제 해결 방법
 
-mutex mtx; //mutual exclusion(나만 쓸 수 있어)
+//mutex mtx; //mutual exclusion(나만 쓸 수 있어)
 
 int main()
 {
@@ -107,7 +107,7 @@ int main()
 				std::this_thread::sleep_for(std::chrono::milliseconds(100));
 
 				// mutex.lock을 하면은 unlock을 만나기 전까지 다른 쓰레드가 실행을 할 수 없다.
-				mtx.lock(); 
+				//mtx.lock(); 
 				cout << name << " " << std::this_thread::get_id() << "is working " << i << " " << endl;
 				//mtx.unlock();
 			}
