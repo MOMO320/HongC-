@@ -148,10 +148,68 @@ public:
 		auto d = p;
 		auto e = p->m_x;
 
+
+		// decltype : 선언한 데이터 타입으로 가져옵니다.
 		typedef decltype(x)			x_type;
-		typedef decltype(cx)		cx_type;
-		typedef decltype(crx)		crx_type;
-		typedef decltype
+		typedef decltype(cx)		cx_type;	// const int
+		typedef decltype(crx)		crx_type;	// const int &
+		typedef decltype(p->m_x)	m_x_type;	//"declared" type , int
+
+		//괄호하나가 더 붙으면 &가 붙어 버림
+		typedef decltype((x))		x_with_parens_type;		// add references to lvalues
+		typedef decltype((cx))		cx_with_parens_type;	
+		typedef decltype((crx))		crx_with_parens_type;
+		typedef decltype((p->m_x))	m_w_with_parens_type; // const int&
+	}
+
+	const S foo()
+	{
+		return S();
+	}
+
+	const int& foobar()
+	{
+		return 123;
+	}
+
+	void ex10()
+	{
+		std::vector<int> vect = { 42, 43 };
+
+		auto a = foo();  // const s
+		typedef decltype(foo()) foo_type; //const s
+
+		auto b = foobar();  // int 
+		typedef decltype(foobar())	foobar_type; //const int&
+
+		auto itr = vect.begin();   //vector<int>::iterator
+		typedef decltype(vect.begin()) iterator_type;  //vector<int>::iterator
+
+		auto first_element = vect[0];   // int
+		decltype(vect[1]) second_element = vect[1];  // int& ([] : 대괄호 operator가 int&라서 레퍼런스가 유지가 됩니다.)
+	}
+
+	void ex11()
+	{
+		int x = 0;
+		int y = 0;
+		const int cx = 42;
+		const int cy = 43;
+		double d1 = 3.14;
+		double d2 = 2.72;
+
+		typedef decltype(x* y) prod_xy_type;
+		auto a = x * y;
+
+		typedef decltype(cx* cy) prod_cxcy_type;	// result is prvalue (int)
+		auto b = cx * cy;
+
+		typedef decltype(d1 < d2 ? d1 : d2) cond_type;	// result is lvalue. &is added.
+		auto c = d1 < d2 ? d1 : d2;
+
+		typedef decltype(x < d2 ? x : d2) cond_type_mixed;	//promotion of x to double
+		auto d = x < d2 ? x : d2;
+
 	}
 };
 
