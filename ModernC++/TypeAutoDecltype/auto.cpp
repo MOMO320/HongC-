@@ -80,14 +80,86 @@ public:
 	void ex4()
 	{
 		const int c = 0;
-		auto& rc = c;
-		rc = 123;
+		auto& rc = c; // 이럴때는 const auto &로 인식을 해줍니다.
+		//rc = 123; // const로 인해 값 변경이 안됨
+	}
+
+	void ex5()
+	{
+		int i = 42;
+		auto&& ri_1 = i;   // l-value
+		auto&& ri_2 = 42;  // r-value;
+	}
+
+	void ex6()
+	{
+		int x = 42;
+		const int* p1 = &x;
+		auto p2 = p1;  // const int* 데이터형으로 추론 됨
+	}
+
+	template<typename T, typename S>
+	void func_ex7(T lhs, S rhs)
+	{
+		// 어떤 자료형이 될지 모를때는 auto를 이용해주면 자동으로 추론해줘서 좋다.
+		auto prod1 = lhs * rhs; 
+
+		// 데이터 타입을 리턴해주는 함수가 있었다.
+		//typedef typeof(lhs* rhs) product_type; 
+		typedef decltype(lhs* rhs) product_type;
+
+		product_type prod2 = lhs * rhs;
+
+		decltype(lhs * rhs) prod3 = lhs * rhs;
+	}
+
+	template<typename T, typename S>
+	auto  func_ex8(T lhs, S rhs) -> decltype(lhs* rhs)
+	{
+		return lhs * rhs;
+	}
+
+	void ex7_8()
+	{
+		cout << typeid(func_ex7(1.0, 345)).name() << endl;
+		cout << typeid(func_ex8(1.2, 345)).name() << endl;
+	}
+
+	struct S
+	{
+		int m_x;
+
+		S()
+		{
+			m_x = 42;
+		}
+	};
+
+	void ex9()
+	{
+		int x;
+		const int cx = 53;
+		const int& crx = x;
+		const S* p = new S();
+
+		auto a = x;
+		auto b = cx;
+		auto c = crx;
+		auto d = p;
+		auto e = p->m_x;
+
+		typedef decltype(x)			x_type;
+		typedef decltype(cx)		cx_type;
+		typedef decltype(crx)		crx_type;
+		typedef decltype
 	}
 };
 
 int main()
 {
 	Example example;
+
+	example.ex7_8();
 
 	return 0;
 }
