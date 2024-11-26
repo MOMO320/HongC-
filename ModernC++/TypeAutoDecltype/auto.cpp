@@ -204,12 +204,91 @@ public:
 		typedef decltype(cx* cy) prod_cxcy_type;	// result is prvalue (int)
 		auto b = cx * cy;
 
+		// 같은 타입일 경우 reference가 붙는다.
 		typedef decltype(d1 < d2 ? d1 : d2) cond_type;	// result is lvalue. &is added.
 		auto c = d1 < d2 ? d1 : d2;
 
 		typedef decltype(x < d2 ? x : d2) cond_type_mixed;	//promotion of x to double
 		auto d = x < d2 ? x : d2;
 
+	}
+
+	// 아래의 함수의 경우 같은 타입일때 reference가 붙어버림
+	template<typename T, typename S>
+	auto fpmin_wrong(T x, S y) -> decltype(x < y ? x : y)
+	{
+		return x < y ? x : y;
+	}
+
+	// 위와 같은 문제를 없애기 위해 remove_reference를 이용해 줍니다.
+	template<typename T, typename S>
+	auto fpmin(T x, S y) -> typename std::remove_reference<decltype(x < y ? x : y)>::type
+	{
+		return x < y ? x : y;
+	}
+
+	void ex12()
+	{
+		int i = 42;
+		double d = 45.1;
+
+		auto a = std::min(static_cast<double>(i), d);
+
+		int& j = i;
+
+		typedef decltype(fpmin_wrong(d, d))		fpmin_return_type1;
+		typedef decltype(fpmin_wrong(i, d))		fpmin_return_type2;
+		typedef decltype(fpmin_wrong(j, d))		fpmin_return_type3;
+	}
+
+	void ex13()
+	{
+		std::vector<int> vect;		// vect is empty
+		typedef decltype(vect[0]) integer;
+	}
+
+	template<typename R>
+	class SomeFunctor
+	{
+	public:
+		typedef R result_type;
+
+		SomeFunctor()
+		{
+		}
+
+		result_type operator()()
+		{
+			return R();
+		}
+	};
+
+	void ex14()
+	{
+		SomeFunctor<int> func;
+		typedef decltype(func)::result_type integer;	//nested type
+	}
+
+	void ex15()
+	{
+		auto lambda = []() {return 42; };
+		decltype(lambda) lambda2(lambda);
+		decltype((lambda)) lambda3(lambda);
+
+		cout << "Lambda functions" << endl;
+		cout << &lambda << " " << &lambda2 << endl;
+		cout << &lambda << " " << &lambda3 << endl;
+	}
+
+	void ex16()
+	{
+		//generic lambda
+		auto lambda = [](auto x, auto y)
+			{
+				return x + y;
+			};
+
+		cout << lambda(1.1, 2) << " " << lambda(3, 4) << " " << lambda(4.5, 2.2) << endl;
 	}
 };
 
@@ -218,6 +297,6 @@ int main()
 	Example example;
 
 	example.ex7_8();
-
+	example.ex15();
 	return 0;
 }
